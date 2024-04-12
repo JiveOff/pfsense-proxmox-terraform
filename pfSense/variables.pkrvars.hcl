@@ -1,0 +1,14 @@
+proxmox_insecure_skip_tls_verify = true
+proxmox_node_name = "epsilon"
+vm_id = 900
+vm_name = "pfSense-Firewall-template"
+vm_storage_pool = "local"
+vm_cores = 2
+vm_memory = 2048
+vm_sockets = 1
+iso_file = "local:iso/pfSense-CE-2.7.1-RELEASE-amd64.iso"
+iso_checksum = "f6520bb14a5e690c6533e4e8fbf4a48d2967f3bc35a713e716b9c64317a13f23"
+lan_ip = "172.16.1.0"
+lan_mask = "24"
+pfsense_default_username = "root"
+pfsense_default_password = "pfsense"
